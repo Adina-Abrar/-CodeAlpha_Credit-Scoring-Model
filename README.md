@@ -37,13 +37,20 @@ The following machine learning models were trained to predict creditworthiness:
 | Random Forest        | 0.932     | 0.950     | 0.731    | 0.826    | 0.938    |
 | XGBoost              | 0.937     | 0.950     | 0.754    | 0.840    | 0.950    |
 
+
 ✅ **Best Model:** XGBoost – chosen for final predictions due to **highest accuracy (93.7%)** and **strong precision, recall, F1-score, and ROC-AUC**.
+
+
 ---
 
 ## 🔧 Hyperparameter Tuning
 
+
 Hyperparameter tuning was performed using RandomizedSearchCV to optimize model performance. The XGBoost model with tuned parameters achieved an accuracy of 93.81%, precision of 96.45%, recall of 74.54%, F1-score of 84.09%, and ROC-AUC of 0.95, significantly outperforming the baseline models. This tuning improved the balance between precision and recall, leading to better overall classification results.
+
+
 ---
+
 
 
 ## 🛠 Technologies & Libraries
